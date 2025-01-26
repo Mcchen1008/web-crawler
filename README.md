@@ -1,9 +1,7 @@
-# web-crawler
+# 用前准备
 首先要安装requests和BeautifulSoup4
 可以创建个sh脚本
-#!/bin/bash
-
-# 尝试安装requests库
+/bin/bash
 echo "开始安装 requests 库..."
 pip install requests
 if [ $? -eq 0 ]; then
@@ -11,8 +9,6 @@ if [ $? -eq 0 ]; then
 else
     echo "requests 库安装失败"
 fi
-
-# 尝试安装BeautifulSoup4库
 echo "开始安装 BeautifulSoup4 库..."
 pip install beautifulsoup4
 if [ $? -eq 0 ]; then
