@@ -1,6 +1,7 @@
 # 用前准备
 首先要安装requests和BeautifulSoup4
 可以创建个sh脚本
+```sheel
 /bin/bash
 echo "开始安装 requests 库..."
 pip install requests
@@ -16,3 +17,4 @@ if [ $? -eq 0 ]; then
 else
     echo "BeautifulSoup4 库安装失败"
 fi
+```
